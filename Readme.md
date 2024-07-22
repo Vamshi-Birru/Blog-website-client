@@ -24,7 +24,7 @@ Make sure you have the following installed:
 
     ```bash
     git clone https://github.com/Vamshi-Birru/Blog-website-client
-    cd Blog-website-frontend
+    cd Blog-website-client
     ```
 
 2. Install the required dependencies:
