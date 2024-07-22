@@ -1,0 +1,22 @@
+@keyframes typing {
+    from { width: 0; }
+    to { width: 16%; }
+  }
+  
+  @keyframes blink {
+    from, to { border-color: transparent; }
+    50% { border-color: black; }
+  }
+  
+  @keyframes cursor-off {
+    0% { border-right: 2px solid black; }
+    100% { border-right: 2px solid transparent; }
+  }
+  
+  .typing-container {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid black;
+    animation: typing 3s steps(9, end) 1s forwards, blink 0.75s step-end infinite, cursor-off 2s 4s forwards;/* Adjust timing here */
+  }
